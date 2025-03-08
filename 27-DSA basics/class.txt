@@ -1,0 +1,26 @@
+Topics to be covered: 
+
+    Q.sum of two integer ✅
+    Q.Relation between integer and string
+    Q.sum and message
+        -type coercion.
+    Q.Accept and print the answer
+    Q.Swap two variables via 3 methods
+        -Operators and their questions 
+            -Arithemetic - '+','-','*','/','%','**'
+            -Relation Operator - '>,<,>=,<=,!=,=,==,==='
+            -logical operator - "&& , ||"
+            -Unary operator - "++,--"
+    Math functions
+        --Math.round()
+        --Math.ceil()
+        --Math.floor()
+        --Math.trunc() -->remove the part after the decimal
+        --Math.pow()
+        --Math.sqrt()
+        --Math.cbrt()
+        --Math.abs()
+        --Math.max()
+        --Math.min()
+        --Math.random()
+
