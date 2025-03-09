@@ -142,6 +142,55 @@ int + int = int (addition)
         |____|        |____|          |____|
 
     
+#.METHOD - 1: desturcting Assignment (using square brackets)
+
+let a = 2;
+let b = 4;
+[a , b] = [b , a]
+
+console.log(a,b) // output : a = 4 , b = 2 (swaped) 
+
+
+Arithametic operators 
+
+console.log(10%2)// modulus kya hai ye divide hi karta hai and ye reminder like deta hai
+
+(dividend % diviser ) // agar kabhi dividend ye diviser se chhota ho to answer divided as it is aajaye ga 
+
+
+console.log(4%10) // what will be the output 
+
+console.log(10/2) // divide sign quotient nikal kar deta hai 
+
+
+arithmetic operators 
++ --> addition , concetination 
+- --> substraction
+* --> multiplication 
+/ --> divide --> it will give quoetient in answer
+% --> modulus --> it will give reminder in answer 
+< --> less than 
+> --> greater than 
+<= --> less than equal to (is me se koi ek condition bhi sahi ho jaye to ye true ho jata hai)
+>= --> greater than equal to (is me se bhi koi ek condition bhi sahi ho jaye to ye true ho jata hai)
+= --> assignment operator 
+== --> equal to (only check value)
+=== --> equal to (check value and type also)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
