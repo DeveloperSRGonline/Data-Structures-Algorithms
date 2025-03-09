@@ -7,10 +7,10 @@
 
 // Q.sum of two integer:
 
-    let a = 12;
-    let b = 23;
+    // let a = 12;
+    // let b = 23;
 
-    console.log(a+b) // it will print 35
+    // console.log(a+b) // it will print 35
 
 // Q.Relation between integer and string:
 
@@ -43,6 +43,7 @@ int + int = int (addition)
     console.log(a + b); // Output: 24
     console.log(typeof(a + b)); // Output: number
 
+    Q.sum and message.
 
     let a = 10
     let b = 20
@@ -62,20 +63,86 @@ int + int = int (addition)
     if 
     console.log(1 + "1") --> agar operator ke koi ek bhi side string hai toh ye concatinate karega
     
+    // - operator ka ek hi kaam hai subtraction 
+
+    -.
+    
+    console.log(1 - 1) --> toh ye print karega : 0
+    console.log(1 - "1") --> toh ye print karega : 0  // ye string ko convert kardega "int" me
+    console.log("1" - "1") --> toh ye print karega : 0 // ye string ko int me convert kar dega ok..
+    
+    console.log("1" - "1") // output : 0
+
+    #.Type Coercion : means operator ko dekh kar (operation perform karna / "ya type change karna") 
+
+    console.log(5 * "2") --> output : 10 🤔
+
+    👂KYA HOTA HAI SIRF "+" OPERATOR HAI JISKE DO KAAM HAI EK "ADDITION" AND DUSRA "CONCATINATION"
+    BAKI SABHI OPERATOR KA EK EK HI KAAM HOTA HAI : type coercion
+    "-" : "SUBSTRACTION" 
+    "*" : "MULTIPLICATION"
+    "/" : "DIVIDE" 
+    "%" : "MODULUS" 
+    "**" : "EXPONENCIATION" 
+
+    let age = 10; // ye hard coded value hai par hame toh user se value chahiye toh hum prompt use karenge 
+
+    Q.Accept and print the answer.
+
+    let age = prompt("Enter your age") -- eg. output : 54 [in black color] => means "string"
+    console.log(age) 
+    -- prompt ye jo hai input "string" ke format me leta hai 
+    -- toh input string se number me convert karne ke liye 
+    aisa karna padega :
+        age = Number(age) // pahela tarika -- eg. output : 17 [in blur color] => means "Number"
+        let age = Number("Enter your age") // dusra tarika -- eg. output : 12 [in blur color] => means "Number"
 
 
+    Q.Swap two variables via 3 methods
 
 
+    #.METHOD - 1: USING THIRD VARIABLE 
+
+    let a = 12;
+    let b = 23;
+
+    let c;
+    c = a;
+    a = b;
+    b = c;
 
 
+    a = | 12 |     b = | 23 |    c = |    |   // pagele aisa 
+        |____|         |____|        |____|
+
+    a = | 12 |     b = | 23 |    c = | 12 |   // phir aisa  [c = a;] // a me c ki value bacha ke rakh di 
+        |____|         |____|        |____|
+
+    a = | 23 |     b = | 23 |    c = | 12 |   // phir aisa  [a = b;] // b ki value a me  and c me a ki value reserve to thi hi
+        |____|         |____|        |____|
+
+    a = | 23 |     b = | 12 |    c = | 12 |   // phir aisa  [b = c;]
+        |____|         |____|        |____|
+
+    console.log(a,b) Output : a = 23 , b = 12
 
 
+    #.METHOD - 2: USING NORMAL MATHEMATICS 
 
+    a = |    |   a => | 12 |  +  b => | 23 |   // a = a + b // a = 12 , b = 23 [pahele] 
+        |____|        |____|          |____|
 
+    a = | 35 |   a => | 12 |  +  b => | 23 |   // a = a + b // a = 35 , b = 23
+        |____|        |____|          |____|
 
+    b = | 12 |   a => | 35 |  -  b => | 23 |   // b = a - b // a = 35 , b = 12
+        |____|        |____|          |____|
 
-
+    a = | 23 |   a => | 35 |  -  b => | 12 |   // a = a - b // a = 23 , b = 12 [baad mein]
+        |____|        |____|          |____|
 
     
-*/
 
+
+
+*/
