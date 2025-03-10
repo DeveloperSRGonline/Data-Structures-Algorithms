@@ -175,15 +175,35 @@ arithmetic operators
 >= --> greater than equal to (is me se bhi koi ek condition bhi sahi ho jaye to ye true ho jata hai)
 = --> assignment operator 
 == --> equal to (only check value)
-=== --> equal to (check value and type also)
+=== --> equal to (check value and type also) 
 
+Logical operators
+    && --> saari ki saari condition true hai toh true nahi toh false
+       --> agar ek bhi condition false hai toh aage check karne ka sense nahi banta  
+    || --> agar puri condition me ek bhi true hai toh ye true dedega
+       --> agar ek bhi condition true hai toh aage check karne ka sense nahi banta  
+    ! --> not operator --> true to false and false to true
 
+Unary operator 
+    ++ --> increment operator
+        --> Pre-increment 
+            -- pahele jaha se aaya hai vaha change kar do value ko and then use kari jaha bhi use karna hai.
+        --> post-increment
+            -- pahele jaha use karna hai vaha use kar lo phir jaha se aaya hai vaha change kar lo
+    -- --> decrement operator -->
 
+    eg. -- let a = 20
+     console.log(a++ + ++a)
+                 20 + 22 => 42    
 
+    console.log(++10); // constant ko increment operator // output : SyntaxError: Invalid left-hand side expression in prefix operation
 
+    console.log(++(++a)) // ye bhi nahi chalega
 
-
-
+    let a = 10;
+    let b = 20;
+    // console.log("sum : " + a + b)// abhi output : sum : 1020
+    // console.log("sum : " + (a + b))// abhi output : sum : 30
 
 
 
