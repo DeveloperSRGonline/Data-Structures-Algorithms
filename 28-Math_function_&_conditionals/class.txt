@@ -1,0 +1,20 @@
+Math functions 
+        --Math.round()
+        --Math.ceil()
+        --Math.floor()
+        --Math.trunc() -->remove the part after the decimal
+        --Math.pow()
+        --Math.sqrt()
+        --Math.cbrt()
+        --Math.abs()
+        --Math.max()
+        --Math.min()
+        --Math.random()
+
+Math Problems :
+
+    Q.calculate compound interest
+        
+    Q.Generate OTP 
+    Q.Area of triangle by heron's formula 
+    Q.Circumference of circle 
