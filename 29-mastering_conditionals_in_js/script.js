@@ -49,13 +49,34 @@ console.log("Hello Shivam!")
 
 // more efficent code 
 
-let amount = Number(prompt("Enter an amount"))
-let dis = 0;
+// let amount = Number(prompt("Enter an amount"))
+// let dis = 0;
 
-if (amount >= 0 && amount <=5000) dis = 0;
-else if(amount >= 5000 && amount <=7000) dis = 5
-else if(amount >= 7000 && amount <=9000) dis = 10
-else if(amount >= 9000) dis = 20
-else console.log("Invalid input") 
+// if (amount >= 0 && amount <=5000) dis = 0;
+// else if(amount >= 5000 && amount <=7000) dis = 5
+// else if(amount >= 7000 && amount <=9000) dis = 10
+// else if(amount >= 9000) dis = 20
+// else console.log("Invalid input") 
 
-console.log(amount - ((dis*amount)/100))
+// console.log(amount - ((dis*amount)/100))
+
+
+// unit              |        Price 
+// 0 - 100           |        Rs.4.2/unit
+// 101 - 200         |        Rs.6/unit
+// 201 - 400         |       Rs.8/unit
+// more than 400     |       Rs.13/unit
+
+let unit = Number(prompt("Enter a unit"))
+let amount = 0;
+if (unit>0 && unit<=100){
+    amount = unit*4.2;
+}else if (unit>100 && unit<=200){//120
+    amount = (100*4.2) + (unit-100)*6
+}else if (unit>200 && unit<=400){// 250
+    amount = (100*4.2) + (100*6) + (unit-200)*8
+}else if(unit>400){
+    amount = (100*4.2) + (100*6) + (200*8) + (unit-400)*13
+}
+
+console.log(amount)
