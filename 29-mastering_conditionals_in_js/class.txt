@@ -1,0 +1,1 @@
+Q.Accept a year and check if it is leap year or not(google to find what is leap year)
