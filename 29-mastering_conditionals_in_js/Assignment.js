@@ -3,7 +3,7 @@
 
 // Q.1:
 let i = 11; // 🚀 i ko 11 se initialize kiya gaya hai.
-i = i++ + ++i; // ➕➖ yahan do operations ho rahe hain: post-increment (i++) aur pre-increment (++i).
+i = i++ + ++i; //  yahan do operations ho rahe hain: post-increment (i++) aur pre-increment (++i).
 // i++ ➡️ matlab 'i' ki current value (11) use karo, phir 'i' ko 1 badhao.
 // ++i ➡️ matlab 'i' ko 1 badhao, phir 'i' ki nayi value use karo.
 // 🔍 let's break it down:
@@ -52,7 +52,7 @@ console.log(z); // 💯 z ki final value 0 hogi.
 // Q.4:
 let boolValue = true; // 🚀 Variable 'boolValue' ko boolean value 'true' se initialize kiya gaya hai.
 
-boolValue++; // ➕➖ Increment operator '++' boolean 'boolValue' par apply kiya ja raha hai.
+boolValue++; //  Increment operator '++' boolean 'boolValue' par apply kiya ja raha hai.
 // JavaScript mein, boolean 'true' ko number '1' mein convert kiya jata hai.
 // Phir, increment operator '1' ko '2' kar deta hai.
 // Isliye, 'b' ki value '2' ho jati hai.
