@@ -1,5 +1,10 @@
+// var ko pahele use kar sakte hai declare karne se pahele all because of hoisting
+// console.log(a); // it will print undefined 
+// var a = 10;
 // -- In the DSA you should use "let"
 // -- console.log pe kuchh bhi "black" aaya to vo sring hota hai  
+// -- console.log pe kuchh bhi "blue" aaya to vo number hota hai
+
 // let a = 10;
 // console.log(a); // it will print 10
 
@@ -37,13 +42,16 @@ string + int = string (concatenation)
     console.log(a + b); // it will print : hello23
     console.log(typeof(a + b)) // it will print : string
 
-int + int = int (addition)
+int + int = int (addition)[arithmatic operation]
     let a = 12;
     let b = 12;
     console.log(a + b); // Output: 24
     console.log(typeof(a + b)); // Output: number
 
-    Q.sum and message.
+    Q.sum and message.(do number ka sum and message print karna)
+
+    hamara brain is condition me kaisa kaam karega :
+     1 + 2 + 3 = 3 + 3 = 6 -- js ka engine bhi aise hi kaam karta hai
 
     let a = 10
     let b = 20
@@ -55,17 +63,16 @@ int + int = int (addition)
                 "sum of 10 and 20 is " + a + b                   
                 "sum of 10 and 20 is 10 + b                   
                 "sum of 10 and 20 is 1020     
-    console.log("sum of " + a + " and " + b + " is " + (a + b))✅             
+    console.log("sum of " + a + " and " + b + " is " + (a + b))✅[BODMOS]          
     console.log( (a + b) + " is " + "sum of " + a + " and " + b) // it will print : 30 is sum of 10 and 20    
     
+    -- "type coercion" : operator ko dekh kar operation perform karna ya type change karna
     console.log(1 + 1) --> agar operator ke dono side int hai to ye arithmatic operation karega 
     and 
     if 
     console.log(1 + "1") --> agar operator ke koi ek bhi side string hai toh ye concatinate karega
     
-    // - operator ka ek hi kaam hai subtraction 
-
-    -.
+    // "-" operator ka ek hi kaam hai subtraction. 
     
     console.log(1 - 1) --> toh ye print karega : 0
     console.log(1 - "1") --> toh ye print karega : 0  // ye string ko convert kardega "int" me
@@ -85,7 +92,7 @@ int + int = int (addition)
     "%" : "MODULUS" 
     "**" : "EXPONENCIATION" 
 
-    let age = 10; // ye hard coded value hai par hame toh user se value chahiye toh hum prompt use karenge 
+    let age = 10; // ye hard coded value hai par hame toh user se value chahiye toh hum "prompt" use karenge.
 
     Q.Accept and print the answer.
 
@@ -99,7 +106,6 @@ int + int = int (addition)
 
 
     Q.Swap two variables via 3 methods
-
 
     #.METHOD - 1: USING THIRD VARIABLE 
 
@@ -142,7 +148,7 @@ int + int = int (addition)
         |____|        |____|          |____|
 
     
-#.METHOD - 1: desturcting Assignment (using square brackets)
+#.METHOD - 1: Desturcting Assignment (using square brackets)
 
 let a = 2;
 let b = 4;
@@ -154,10 +160,14 @@ console.log(a,b) // output : a = 4 , b = 2 (swaped)
 Arithametic operators 
 
 console.log(10%2)// modulus kya hai ye divide hi karta hai and ye reminder like deta hai
-
+    (10   %    2)
 (dividend % diviser ) // agar kabhi dividend ye diviser se chhota ho to answer divided as it is aajaye ga 
 
-
+In DSA 
+    -- integer % integer = integer
+    -- integer / integer = float 
+    -- integer / integer = integer (when we use Math.floor() function)
+    
 console.log(4%10) // what will be the output 
 
 console.log(10/2) // divide sign quotient nikal kar deta hai 
@@ -176,6 +186,7 @@ arithmetic operators
 = --> assignment operator 
 == --> equal to (only check value)
 === --> equal to (check value and type also) 
+!= --> not equal to (only check value)
 
 Logical operators
     && --> saari ki saari condition true hai toh true nahi toh false
@@ -196,9 +207,10 @@ Unary operator
      console.log(a++ + ++a)
                  20 + 22 => 42    
 
-    console.log(++10); // constant ko increment operator // output : SyntaxError: Invalid left-hand side expression in prefix operation
+    console.log(++10);❌// constant ko increment operator nahi laga sakte    
+    // output : SyntaxError: Invalid left-hand side expression in prefix operation
 
-    console.log(++(++a)) // ye bhi nahi chalega
+    console.log(++(++a)) // ye bhi nahi chalega ❌
 
     let a = 10;
     let b = 20;
