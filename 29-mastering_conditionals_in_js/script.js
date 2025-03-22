@@ -1,3 +1,4 @@
+let prompt = require("prompt-sync")();
 console.log("Hello Shivam!")
 
 // let year = Number(prompt("Enter the year "))
@@ -83,21 +84,53 @@ console.log("Hello Shivam!")
 
 // console.log(amount)
 
-let unit = Number(prompt("Enter a unit"))
-// 700=>400=>200=>100 
-let amount = 0;
-if(unit>400){
+// Q.Bijli Bill calculator:
+
+    let unit = Number(prompt("Enter a unit : "))
+    // 700=>400=>200=>100 
+    let amount = 0;
+    if(unit>400){
     amount = (unit-400)*13;
     unit = 400;
-}
-if(unit>200 && unit<=400){
+    }
+    if(unit>200 && unit<=400){
     amount = amount + (unit-200)*8;
     unit = 200;
-}
-if(unit>100 && unit<=200){
+    }
+    if(unit>100 && unit<=200){
     amount = amount + (unit-100)*6;
     unit = 100;
-}
-amount = amount + unit*4.2;
+    }
+    amount = amount + unit*4.2;
 
-console.log(amount);
+    console.log("You have to pay : " + amount);
+
+
+    // Q.Print karo 5 baar "hello world!"
+    //    Le Begineer :
+        //  console.log("Hello World!")
+        //  console.log("Hello World!")
+        //  console.log("Hello World!")
+        //  console.log("Hello World!")
+        //  console.log("Hello World!")
+        //  console.log("Hello World!") 😂😂 // (it is bad practice)
+
+        // loop me kaam karvane ke liye do tarike hai pahela hai loop and dusra hai recursion
+        // Loop kya hota hai? ==> ek block of code hota hai jo repetedily task perform karvata hai at a certain condition.
+        // Types of loop in js:
+            // 1.Entry control (task excute karvane ke pahele condition puchi jayegi)
+                    // a.for 
+                        // -->(declare/initialization , condition, change) #optional📌
+                            for(let i = 0; i<=5; i++){
+                                console.log("Hello World!")// output: 5️⃣hello world!
+                            }
+                            // [ ye mcq's me puchha jata hai ]
+                            // (let i = 0; i<=5;) -- kya ye valid code hai => yes it is a valid code 🛑 ♾️times chalega    
+                            // (let i = 0;;) -- kya ye valid code hai => yes it is a valid code 🛑 ♾️times chalega
+                            // (;;) -- kya ye valid code hai => yes it is a valid code 🛑 ♾️times chalega
+                            // (;) -- agar ek bhi semicolon hat gaya toh ye ek invaid ❌code hai
+
+                            // b.while
+            // 2.Exit control (ek baar chalgaya ab dubara chalne ke liye condition aap ko valid karvani padegi)
+                    // a.do while
+                     
