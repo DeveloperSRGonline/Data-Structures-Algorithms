@@ -18,4 +18,4 @@ for(let i = 2; i < arr.length; i++){
         secondMax = arr[i];
     }
 }
-console.log("second max : " + secondMax);
+console.log("second max : " + secondMax);  
