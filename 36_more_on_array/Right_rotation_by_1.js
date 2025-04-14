@@ -5,4 +5,4 @@ for(let i = arr.length-1;i>0;i--){
 }
 arr[0] = temp
 
-console.log(arr)
+console.log(arr) 

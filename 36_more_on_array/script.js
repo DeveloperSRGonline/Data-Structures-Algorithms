@@ -5,7 +5,7 @@
 // -- secondMax = Math.min(arr[0], arr[1]); inme se jo chota aayega vo secondMax
 // -- ab ham array ke 2nd element se loop chalayenge aur check karenge ki vo max se bada hai ya nahi agar bada hai to usko max me store karenge aur max ko secondMax me store karenge
 // -- agar vo max se chota hai to usko secondMax me store karenge
-/*
+/* 
 let arr = [28,6,74,48,84,79];
 let max = Math.max(arr[0], arr[1]); 
 let secondMax = Math.min(arr[0], arr[1]);
