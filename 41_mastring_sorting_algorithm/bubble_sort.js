@@ -9,5 +9,5 @@ for(let i=0;i<n-1;i++){
             arr[j+1] = temp;
         }
     }
-}
+} 
 console.log(arr)
