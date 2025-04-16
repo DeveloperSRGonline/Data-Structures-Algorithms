@@ -1,0 +1,15 @@
+time complixity : amount of time taken(operation) as a function of input size(n)
+
+-- iska lena dena time se bilkul bhi nahi hota 
+
+e.g 
+-- linear search ka example (koi element ko dhundh na hai)
+    [3,4,11,2,7,14,9,1]     n = 8 (n - arr ki length)
+-- hame sabse wrost case man ke chalte hai ki hamara element sabse last me milega
+-- manke chalo n = 1000 hai ya n = 10000 hai ya n = 100000 hai toh utne number of operations perform hoge
+-- aap ke operations kis par depend karte hai aap ke input par is behaviour ko hum time complixity bolte hai 
+-- bola ja raha hai time complixity large inputs ke liye dekha jata hai
+
+-- 1 employee details --> hum dimakh me bhi rakh sakte hai
+-- 10 - 20 employee details --> copy / diary me rakh denge 
+-- 1 lakh employee details --> system ki jarurat padegi  

@@ -1,0 +1,7 @@
+complixity  representation (notation)
+    # Big O - wrost case (upper bound) [max to max]
+    # theta - Average case 
+    # omega - lower bond
+
+-- companies , test , interview me sirf big o pe baat 
+-- jab aap developmet me jate ho ya, next level shit banate hai 

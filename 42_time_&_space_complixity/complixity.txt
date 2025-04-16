@@ -1,0 +1,6 @@
+Complixity - kisi bhi task ko measure karne ka  level batata hai    
+
+jaise ki weight ko mapne ke liye - kg
+jaise ki distance ko mapne ke liye - km & so on.. 
+
+so kg,km ye sab kya hai units jo ki maap(measure) rahe hai kisi chij ko 
