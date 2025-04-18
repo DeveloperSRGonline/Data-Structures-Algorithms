@@ -1,0 +1,71 @@
+#🟢O(1) , constant time complixity
+    -- Math.min(12,4)
+    -- jaha bhi ek step hi step/operation vaha O(1).
+    -- ek aur case hai 
+    -- for(1 --> n)  n = 10 (n ki value fix hai)
+       log(...) toh hum ise bolenge O(1).
+
+    -- jab kabhi n ki value define ho exact bata di gayi ho tab
+
+#🟢O(n) , linear time complixity
+
+    -- n ki value fix nahi hai use pe depended hai 
+
+#🟢O(n)^2 , quadratic time complixity
+
+    -- for(1 --> n) [near by n times]
+        for(1 --> n) [near by n times]
+
+    -- jab bhi loop ke andar loop(nested) chal raha ho tab n^2
+    -- jitne nested loop utna n to the power in this case two nested loop so n^2.
+    -- e.g pattern programming
+    -- n^3 ko bhi quadratic time complixity hi bola jata hai
+
+#🟢O[log(n)] , logerithm time complixity
+
+    -- no of operation drastically change ho rahe ho 
+    -- example hai binary search
+
+
+#🟢O(2^n),(3^n),4^n - exponential time complixity
+
+#🟢n! - factorial time complixity
+
+
+
+
+===> nested - multiply (nxn)
+===> parallel - addition (n+n)
+===> har interview question ke baad aap se puchh jayega ki"tell me the time complixity of this question"
+
+
+for(1 --> n) n                --|
+             x(due to nested)   |-> n^2
+for(1 --> n) n                --|
+                     +(due to parallel)
+
+for(1 --> n) n -->                  n
+
+equation : n^2 + n 
+-- jo bhi higher order wala hota hai uski ko consider karna 
+-- kyoki hum mathematics me padhte the jo chhota input hota hai vo negligible 
+
+so now time complixity will be : n^2
+
+
+-- for example 
+equation is 3n^3/2 + [n^2 +  n/2]--> ye dono toh hogaye ignore 
+bacha kya : 3n^3/2  --> 3/2 toh constant hai ye toh ignore ho jayega 
+
+
+-- for example
+equation is : n^2 + [nlogn + O(1)] --> ye dono toh hat jayege  kyo ki higher order degree hai 2 
+-- n^2/2 bacha yaha se constant bhi hat jayega 
+toh time complixity hai : n^2 
+
+
+Time Limit excident (TLE)
+
+task hai O(n) ka par problem karte karte O(n^2) ho gaya toh ye TLE ho jayega 
+
+-- hamne prime number ka question solve kiya tha 
