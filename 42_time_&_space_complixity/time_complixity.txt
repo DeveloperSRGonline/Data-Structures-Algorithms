@@ -13,3 +13,9 @@ e.g
 -- 1 employee details --> hum dimakh me bhi rakh sakte hai
 -- 10 - 20 employee details --> copy / diary me rakh denge 
 -- 1 lakh employee details --> system ki jarurat padegi  
+
+
+1 <= n <= 10^4 ==> O(1),log(n),n.log(n),O(n),O(n^2)
+
+10^5 , 10^6  ==> O(1),log(n),n.log(n),O(n)
+10^8 , 10^9  ==> O(1),log(n)

@@ -1,0 +1,12 @@
+Space Complexity : 
+
+let n ; --> O(1),constant space Complexity
+for(1 --> n){
+    let a; --> O(1)?? kaise batao -- jab bhi loop chalta hai variable har baar newly banega
+}
+
+-- phir O(n) kab hoga 
+-- jab humne reverse the array wala program banaya tha 
+-- usme hum extra space ka array banate the and phir usme original array mein piche se triversal kar ke new blank array mein rakh te the 
+-- toh usme jitni length ka mera array thi utni space ka extra space ka array banate the 
+-- yahi hota hai "O(n)"
