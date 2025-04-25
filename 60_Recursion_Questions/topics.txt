@@ -1,0 +1,6 @@
+Q 73.Print n times hello world
+Q 74.Print natural number 1-n/n-1
+Q 75.Factorial / sum
+Q 76.Fibonacci series (0,1,1,2,3,5,8,13,21,34,....)
+Q 77.Sum of digit
+Q 78.reverse of digit
