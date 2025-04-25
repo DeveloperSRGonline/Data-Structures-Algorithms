@@ -85,10 +85,12 @@ let n = Number(prompt('Enter a number : '))
 
 
 // printing values in dreceasing order from n to 1.
-temp(n)
-function temp(n){
-    if(n == 0) return
-    process.stdout.write(n + " ")
-    temp(n-1)
-}
+// temp(n)
+// function temp(n){
+//     if(n == 0) return
+//     process.stdout.write(n + " ")
+//     temp(n-1)
+// }
 // output : 10 9 8 7 6 5 4 3 2 1
+
+
