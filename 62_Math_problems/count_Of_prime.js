@@ -6,6 +6,7 @@
 // hum condition kya check karenge 2 ---->  sqrt(n) .. agar sqrt tak koi bhi divisible nahi kar paya toh uske aage bhi nahi kar payega 
 // and agar divisible hai sqrt tak toh prime nahi hai
 // representing index as a number
+// Sieve of Eratosthenes
 let prompt = require('prompt-sync')()
 let n = Number(prompt('Enter a number : '))
 checkRangeInPrime(n)
