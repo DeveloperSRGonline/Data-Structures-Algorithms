@@ -125,3 +125,101 @@ console.log(student3);
 🗣️ `this` refers to the **current object being created** using `new`.
 
 ---
+
+# 📘 JavaScript - Class, Prototype, and OOP Explained
+
+## ✅ Class in JavaScript (Syntactic Sugar)
+
+```js
+class Student {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+let obj = new Student('shivam', 21);
+let obj2 = new Student('sagar', 12);
+In JavaScript, class is just syntactic sugar.
+
+Internally, it still uses functions and prototypes.
+
+This makes JS appear similar to class-based languages like Java or C++.
+
+But under the hood, it’s prototype-based.
+
+❓ If JS has no true classes, then why use class?
+JS is object-oriented not because of class, but because of prototypes.
+
+There are 3 major ways to create objects in JS:
+
+Object Literals
+
+Constructor Functions
+
+Classes (Syntactic Sugar)
+
+🧬 JavaScript is a Prototype-Based Language
+➕ What is a Prototype?
+A prototype is an object from which other objects inherit properties.
+
+It’s used for inheritance in JavaScript.
+
+🔄 Inheritance in JS
+In languages like Java or C++, inheritance is class-based.
+
+In JS, inheritance is object-to-object using prototypes.
+
+js
+Copy
+Edit
+let object = {
+    display() {
+        console.log("something");
+    }
+};
+🧪 Prototype Example with Arrays
+js
+Copy
+Edit
+let arr = [1, 2, 3, 4, 5];
+console.log(arr);
+arr.push(); // Works because push() is from Array prototype
+🧠 Note: We never created push() — it came from the Array.prototype.
+
+📚 Analogy:
+
+Like inheriting land or traits from your parents.
+
+Similarly, objects in JS inherit methods and properties via prototype chain.
+
+📦 Custom Prototype Inheritance Example
+js
+Copy
+Edit
+const student = {
+    name: "Amit",
+    age: 21
+};
+
+const personPrototype = {
+    greet() {
+        console.log(`Hello, my name is ${this.name}`);
+    },
+    isAdult() {
+        return this.age >= 18;
+    }
+};
+
+student.__proto__ = personPrototype; // Manual prototype inheritance
+
+student.greet(); // Hello, my name is Amit
+console.log(student.isAdult()); // true
+⚡ Summary:
+JS is prototype-based, not class-based.
+
+Classes are just syntactic sugar for constructor functions and prototype inheritance.
+
+Prototype allows inheritance and reuse of existing functionality.
+
+Every object in JS has a hidden [[Prototype]] (accessed using __proto__).
