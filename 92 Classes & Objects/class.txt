@@ -84,3 +84,8 @@ let student5 = new Animal("mike", 17, "male");
 let student6 = new Animal("lisa", 16, "female");
 
 console.log(student3);
+
+- ES6 -> class and objects
+no class 
+
+
